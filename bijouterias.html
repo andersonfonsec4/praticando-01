@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilho Delicado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+        }
+        header {
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff1493;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff1493;
+            margin-bottom: 10px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .product-item {
+            width: calc(33.333% - 20px);
+            background-color: #ffe4e1;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product-item p {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #ff69b4;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brilho Delicado</h1>
+        <p>Bijuterias que encantam e iluminam seu estilo</p>
+    </header>
+
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="intro">
+        <h2>Bem-vinda ao Brilho Delicado</h2>
+        <p>Descubra a coleção exclusiva de bijuterias que combinam delicadeza e sofisticação. Cada peça é escolhida com carinho para realçar a sua beleza.</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="caminho/para/imagem1.jpg" alt="Produto 1">
+                <p>Colar de Pérolas</p>
+                <p>R$ 79,90</p>
+            </div>
+            <div class="product-item">
+                <img src="caminho/para/imagem2.jpg" alt="Produto 2">
+                <p>Pulseira de Cristais</p>
+                <p>R$ 49,90</p>
+            </div>
+            <div class="product-item">
+                <img src="caminho/para/imagem3.jpg" alt="Produto 3">
+                <p>Brincos de Prata</p>
+                <p>R$ 59,90</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos de Clientes</h2>
+        <p>"As bijuterias do Brilho Delicado são incríveis! Sempre recebo elogios." - Ana Souza</p>
+        <p>"Comprei um presente para minha mãe e ela adorou. Qualidade excelente!" - Beatriz Lima</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre nossos produtos:</p>
+        <p>Email: contato@brilhodelicado.com</p>
+        <p>Telefone: (11) 9876-5432</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Brilho Delicado. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
